@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Agency Webpage</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Malek Travel and Tours</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Destinations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero-section">
+    <div class="container text-white text-center">
+      <h1 class="display-4">Plan Your Dream Vacation</h1>
+      <p class="lead">Discover new destinations and experiences with us!</p>
+      <button type="button" class="btn btn-primary btn-lg">Explore Now</button>
+    </div>
+  </section>
+
+  <section class="destinations-section py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Popular Destinations</h2>
+      <div class="row">
+        <div class="col-md-4 destination-item">
+          <img src="https://afar.brightspotcdn.com/dims4/default/dd4ced2/2147483647/strip/true/crop/3000x1592+0+323/resize/1440x764!/quality/90/?url=https%3A%2F%2Fk3-prod-afar-media.s3.us-west-2.amazonaws.com%2Fbrightspot%2Fb2%2Ff4%2F9a1ebe3f427f8e5eb937f8df8998%2Ftravelguides-maldives-videomediastudioeurope-shutterstock.jpg" alt="Beach" class="img-fluid mb-3">
+          <h3>Beach Vacation</h3>
+          <p>Relax and soak up the sun on some of the world's most beautiful beaches.</p>
+        </div>
+        <div class="col-md-4 destination-item">
+          <img src="https://www.exoticca.com/uk/magazine/wp-content/uploads/2021/06/matterhorn-BLOG-mountains.png" alt="Mountains" class="img-fluid mb-3">
+          <h3>Mountain Getaway</h3>
+          <p>Experience the great outdoors and breathtaking views on a mountain retreat.</p>
+        </div>
+        <div class="col-md-4 destination-item">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_JBLVQ2uQZsG6Ji7hu9LkvdhMZ9JoE1lawA&s" alt="City" class="img-fluid mb-3">
+          <h3>City Adventure</h3>
+          <p>Explore the culture, history, and landmarks of some of the world's most iconic cities.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="about-us-section py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0nNXeXgLudVi37-ocz8gWUTXBsCYCBcRPgw&s" alt="Travel" class="img-fluid">
+        </div>
+        <div class="col-md-6">
+          <h2>About Us</h2>
+          <p>A travel agency is a private retailer or public service that provides travel and tourism-related services to the general public on behalf of accommodation or travel suppliers to offer different kinds of travelling packages for each destination.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-section py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Contact Us</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter your email">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="bg-light py-3">
+    <div class="container text-center">
+      <p>&copy; 2024 Malek Travel and Tours. All rights reserved.</p>
+      <ul class="list-inline">
+        <li class="list-inline-item">
+          <a href="#" class="text-dark"><i class="fab fa-facebook-f"></i></a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#" class="text-dark"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#" class="text-dark"><i class="fab fa-instagram"></i></a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

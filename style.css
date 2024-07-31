@@ -1,0 +1,107 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('https://source.unsplash.com/1600x900/?scenery'); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #c57d7d; 
+  }
+  
+  .hero-section {
+    background: rgba(4, 2, 52, 0.5); 
+    padding: 100px 0;
+  }
+  
+  .hero-section .container {
+    text-shadow: 2px 2px 4px rgba(33, 15, 169, 0.6);
+  }
+  
+  .hero-section h1 {
+    font-size: 4rem;
+    animation: fadeInDown 1s ease-in-out;
+  }
+  
+  .hero-section p {
+    font-size: 1.5rem;
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
+  .hero-section button {
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .destination-item img {
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .destination-item img:hover {
+    transform: scale(1.05);
+  }
+  
+  .destination-item h3 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+  }
+  
+  .contact-section form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  footer {
+    border-top: 1px solid #dee2e6;
+    background: rgba(0, 0, 0, 0.5); 
+  }
+  
+  footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  footer ul li a {
+    font-size: 1.5rem;
+    color: #f3e1e1; /* Ensure icons are visible */
+  }
+  
+  footer ul li a:hover {
+    color: #4b0666;
+  }
